@@ -18,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Create array of artists names
-        String [] artistsNames = {"Michael Jackson", "Bob Dylan"};
+        String [] artistsNames = {"Michael Jackson", "Bob Dylan", "Aretha Franklin", "Elvis Presley"};
 
         // Create array of artists images ids
-        int [] artistsImages = {R.drawable.michael_jackson, R.drawable.bob_dylan};
+        int [] artistsImages = {R.drawable.michael_jackson, R.drawable.bob_dylan, R.drawable.aretha_franklin, R.drawable.elvis_presley};
 
         // Create list array of artist objects
         ArrayList<Artist> artists = new ArrayList<Artist>();

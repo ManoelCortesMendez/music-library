@@ -21,7 +21,9 @@
             android:label="Michael Jackson" />
         <activity
             android:name=".BobDylanActivity"
-            android:label="Bob Dylan"/>
+            android:label="Bob Dylan" />
+        <activity android:name=".ArethaFranklinActivity" />
+        <activity android:name=".ElvisPresleyActivity"></activity>
     </application>
 
 </manifest>
