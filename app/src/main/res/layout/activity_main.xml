@@ -5,4 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:numColumns="2"
-    android:id="@+id/artists_grid_view" />
+    android:id="@+id/artists_grid_view"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:horizontalSpacing="16dp" />
