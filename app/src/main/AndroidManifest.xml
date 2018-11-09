@@ -22,8 +22,12 @@
         <activity
             android:name=".BobDylanActivity"
             android:label="Bob Dylan" />
-        <activity android:name=".ArethaFranklinActivity" />
-        <activity android:name=".ElvisPresleyActivity"></activity>
+        <activity
+            android:name=".ArethaFranklinActivity"
+            android:label="Aretha Franklin" />
+        <activity
+            android:name=".ElvisPresleyActivity"
+            android:label="Elvis Presley" />
     </application>
 
 </manifest>
