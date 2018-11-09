@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MichaelJacksonActivity"
+            android:label="Michael Jackson" />
+        <activity
+            android:name=".BobDylanActivity"
+            android:label="Bob Dylan"/>
     </application>
 
 </manifest>
