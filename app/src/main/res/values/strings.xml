@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Music Library</string>
+    <string name="michael_jackson_name">Michael Jackson</string>
+    <string name="bob_dylan_name">Bob Dylan</string>
+    <string name="aretha_franklin_name">Aretha Franklin</string>
+    <string name="elvis_presley_name">Elvis Presley</string>
 </resources>

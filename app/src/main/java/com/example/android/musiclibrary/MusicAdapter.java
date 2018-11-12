@@ -35,11 +35,11 @@ public class MusicAdapter extends ArrayAdapter {
         Music currentMusic = (Music) getItem(position);
 
         // Get music name text view of list item view, and set its content to the music's name
-        TextView musicNameTextView = (TextView) listItemView.findViewById(R.id.music_name_text_view);
+        TextView musicNameTextView = listItemView.findViewById(R.id.music_name_text_view);
         musicNameTextView.setText(currentMusic.getMusic());
 
         // Get album name text view of list item view, and set its content to the album's name
-        TextView albumNameTextView = (TextView) listItemView.findViewById(R.id.album_name_text_view);
+        TextView albumNameTextView = listItemView.findViewById(R.id.album_name_text_view);
         albumNameTextView.setText(currentMusic.getAlbum());
 
         // Return the music list item view

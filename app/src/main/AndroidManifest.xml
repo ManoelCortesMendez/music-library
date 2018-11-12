@@ -18,19 +18,19 @@
         </activity>
         <activity
             android:name=".MichaelJacksonActivity"
-            android:label="Michael Jackson"
+            android:label="@string/michael_jackson_name"
             android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".BobDylanActivity"
-            android:label="Bob Dylan"
+            android:label="@string/bob_dylan_name"
             android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".ArethaFranklinActivity"
-            android:label="Aretha Franklin"
+            android:label="@string/aretha_franklin_name"
             android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".ElvisPresleyActivity"
-            android:label="Elvis Presley"
+            android:label="@string/elvis_presley_name"
             android:parentActivityName=".MainActivity"/>
     </application>
 

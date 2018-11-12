@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="artist_image_ids">
+        <item>@drawable/michael_jackson</item>
+        <item>@drawable/bob_dylan</item>
+        <item>@drawable/aretha_franklin</item>
+        <item>@drawable/elvis_presley</item>
+    </integer-array>
+</resources>

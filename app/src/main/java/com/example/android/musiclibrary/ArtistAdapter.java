@@ -38,11 +38,11 @@ public class ArtistAdapter extends ArrayAdapter {
         final Artist currentArtist = (Artist) getItem(position);
 
         // Get name text view of grid item view, and set its content to the artist's name
-        ImageView artistImageView = (ImageView) gridItemView.findViewById(R.id.artist_image_view);
+        ImageView artistImageView = gridItemView.findViewById(R.id.artist_image_view);
         artistImageView.setImageResource(currentArtist.getImageId());
 
         // Get name text view of grid item view, and set its content to the artist's name
-        TextView artistNameTextView = (TextView) gridItemView.findViewById(R.id.artist_name_text_view);
+        TextView artistNameTextView = gridItemView.findViewById(R.id.artist_name_text_view);
         artistNameTextView.setText(currentArtist.getName());
 
         // Attach a click listener to the artist grid item view

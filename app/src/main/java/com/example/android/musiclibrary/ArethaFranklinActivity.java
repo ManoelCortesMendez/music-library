@@ -26,7 +26,7 @@ public class ArethaFranklinActivity extends AppCompatActivity {
         MusicAdapter musicAdapter = new MusicAdapter(this, music);
 
         // Get music list
-        ListView musicListView = (ListView) findViewById(R.id.music_list_view);
+        ListView musicListView = findViewById(R.id.music_list_view);
 
         // Link list and adapter
         musicListView.setAdapter(musicAdapter);
